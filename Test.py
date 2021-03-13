@@ -61,7 +61,7 @@ class Test(unittest.TestCase):
     
     def test_words(self):
         total_words = amount_of_words()
-        self.assertEqual(total_words, 25, "Should be 25")
+        self.assertEqual(total_words, 26, "Should be 26")
 
 
 if __name__ == '__main__':
