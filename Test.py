@@ -53,15 +53,15 @@ def amount_of_words():
 class Test(unittest.TestCase):
     def test_tags(self):
         total_tags = amount_of_tags()
-        self.assertEqual(total_tags, 2, "Should be 1")
+        self.assertEqual(total_tags, 5, "Should be 5")
 
     def test_hashtag(self):
         total_hash = amount_of_hashtag()
-        self.assertEqual(total_hash, 3, "Should be 1")
+        self.assertEqual(total_hash, 5, "Should be 5")
     
     def test_words(self):
         total_words = amount_of_words()
-        self.assertEqual(total_words, 13, "Should be 7")
+        self.assertEqual(total_words, 25, "Should be 25")
 
 
 if __name__ == '__main__':
